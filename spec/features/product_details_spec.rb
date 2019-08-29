@@ -27,6 +27,8 @@ scenario "product details" do
 
   sleep 3
 
+  expect(page).to have_css(".products-show")
+
   save_screenshot
 end
 
